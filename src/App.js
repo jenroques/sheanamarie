@@ -57,9 +57,8 @@ function App() {
               occupation, and is extremely grateful to be a part of such a
               memorable day. Thank you for choosing Sheana Marie Artistry.
             </p>
-
-
           </div>
+
         </div>
       </section>
 
@@ -87,6 +86,30 @@ function App() {
           </div>
 
         </div>
+      </section>
+
+      <section class="styles" id="styles">
+
+        <div class="box-container">
+
+          <div class="box">
+            <div class="image">
+              <a
+                href="https://www.theknot.com/marketplace/sheana-marie-artistry-llc-saint-louis-mo-2040557"
+                class="img"
+              >
+                <img src={require("./images/BOW_Alternate_DigitalBadge_2023-120.png")} alt="The Knot - Best of Weddings winner 2023" width="170" height="170" />
+              </a>
+            </div>
+            <div class="heading">
+              <h3>The Knot - Best of Weddings Winner, 2023, 2022 & 2021</h3>
+
+            </div>
+          </div>
+
+
+        </div>
+
       </section>
 
       <section class="visit" id="visit">
@@ -141,7 +164,7 @@ function App() {
             <h3>Follow Us</h3>
             <div class="share">
               <a
-                href="https://www.theknot.com/marketplace/redirect-2040557"
+                href="https://www.theknot.com/marketplace/sheana-marie-artistry-llc-saint-louis-mo-2040557"
                 class="fab fa-facebook-f"
               >
                 <img src={require("./images/BOW_DigitalBadge_2023-36.png")} alt="" width="50" />

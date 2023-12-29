@@ -28,7 +28,7 @@
   }
 }
 
-@import url("https://fonts.googleapis.com/css?family=Playfair+Display:1,300,400,400italic,500,700,700italic,900");
+@import url("https://fonts.googleapis.com/css?family=Raleway:1,300,400,400italic,500,700,700italic,900");
 
 :root {
   --main-color: #d6d3cf;
@@ -43,7 +43,7 @@
 }
 
 * {
-  font-family: "Playfair Display", sans-serif;
+  font-family: "Railway";
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -126,7 +126,7 @@ section {
 }
 
 .header .logo {
-  font-size: 2.5rem;
+  font-size: 3.5rem;
   font-weight: bolder;
   color: var(--black);
   text-transform: capitalize;
@@ -136,14 +136,14 @@ section {
   position: absolute;
   top: 1.5rem;
   right: 2rem;
-  font-size: 4rem;
+  font-size: 5rem;
   cursor: pointer;
   color: var(--black);
   display: none;
 }
 
 .header .navbar a {
-  font-size: 2rem;
+  font-size: 3rem;
   margin-left: 2rem;
   color: var(--black);
   text-transform: capitalize;
@@ -155,7 +155,7 @@ section {
 }
 
 #menu-btn {
-  font-size: 2.5rem;
+  font-size: 3.5rem;
   cursor: pointer;
   color: var(--black);
   display: none;
@@ -176,7 +176,7 @@ section {
 
 @media (max-width: 600px) {
   .home {
-    min-height: 50vh; /* Adjust the height as needed */
+    min-height: 30vh; /* Adjust the height as needed */
     background-size: contain; /* Make the background fit within the container */
     background-position: top center; /* Adjust the position as needed */
   }
@@ -187,7 +187,7 @@ section {
 }
 
 .home .content span {
-  font-size: 3rem;
+  font-size: 4rem;
   letter-spacing: 0.5rem;
   padding-bottom: 0.5rem;
   color: var(--primary-color);
@@ -196,7 +196,7 @@ section {
 
 .home .content h3 {
   color: var(--black);
-  font-size: 8rem;
+  font-size: 9rem;
   line-height: 8rem;
   font-weight: 900;
 }
@@ -229,19 +229,19 @@ section {
 }
 
 .about .row .content h3 {
-  font-size: 3rem;
+  font-size: 4rem;
   color: var(--primary-color);
 }
 
 .about .row .content p {
-  font-size: 1.6rem;
+  font-size: 2rem;
   color: #2e2e2e;
   padding: 1rem 0;
   line-height: 1.8;
 }
 
 @media (max-width: 600px) {
-  .about .row .content {
+  .about .row .content p {
     background-color: rgba(
       255,
       255,
@@ -347,7 +347,7 @@ section {
   gap: 1.5rem;
 }
 
-.styles .box-container .box .image {
+.styles .box-container .box .img {
   overflow: hidden;
   width: 100%;
   text-align: center;
@@ -368,7 +368,7 @@ section {
 }
 
 .styles .box-container .box .content p {
-  font-size: 1.6rem;
+  font-size: 3rem;
   line-height: 1.8;
   color: #444;
   padding: 1rem 0;
@@ -449,7 +449,7 @@ section {
 }
 
 .review .box-container .box p {
-  font-size: 1.5rem;
+  font-size: 1.9rem;
   line-height: 1.8;
   color: var(--black);
   padding: 2rem 0;
@@ -489,7 +489,7 @@ section {
 }
 
 .footer .box-container .box p {
-  font-size: 1.5rem;
+  font-size: 1.9em;
   line-height: 2;
   color: var(--black);
   padding: 1rem 0;
@@ -504,7 +504,7 @@ section {
   width: 4.5rem;
   line-height: 4.5rem;
   border-radius: 50%;
-  font-size: 1.7rem;
+  font-size: 1.9rem;
   background-color: var(--primary-color);
   color: var(--white);
   margin-right: 0.3rem;
@@ -516,7 +516,7 @@ section {
 }
 
 .footer .box-container .box .link {
-  font-size: 1.7rem;
+  font-size: 2rem;
   line-height: 2;
   color: var(--primary-color);
   padding: 0.5rem 0;
@@ -532,7 +532,7 @@ section {
 .footer .box-container .box .email {
   width: 100%;
   padding: 1.2rem 1.4rem;
-  font-size: 1.6rem;
+  font-size: 2rem;
   border: 0.1rem solid var(--primary-color);
   margin-bottom: 1rem;
 }
@@ -541,7 +541,7 @@ section {
   text-align: center;
   margin-top: 3rem;
   padding-top: 3rem;
-  font-size: 2rem;
+  font-size: 1.4rem;
   text-transform: capitalize;
   color: #444;
   border-top: 0.1rem solid var(--primary-color);
