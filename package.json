@@ -1,12 +1,19 @@
 {
   "name": "sheanamarie",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Sheana Marie Artistry",
+  "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "keywords": [
+    "node",
+    "heroku"
+  ],
+  "author": "Jennifer",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://git.heroku.com/sheanamarieartistry.git"
+  }
 }
