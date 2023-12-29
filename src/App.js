@@ -6,6 +6,7 @@ function App() {
   return (
     <div className="App">
       <section class="header">
+
         <a href="#" class="logo"> Welcome </a>
 
         <nav class="navbar">
@@ -27,7 +28,6 @@ function App() {
 
         <div class="row">
           <div class="image">
-
           </div>
 
           <div class="content">
