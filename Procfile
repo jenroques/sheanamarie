@@ -1,1 +1,1 @@
-<process type>: <web></web></process>
+web: node index.js
