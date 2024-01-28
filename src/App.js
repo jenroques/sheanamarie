@@ -101,12 +101,22 @@ function App() {
                 <img src={require("./images/BOW_Alternate_DigitalBadge_2023-120.png")} alt="The Knot - Best of Weddings winner 2023" width="170" height="170" />
               </a>
             </div>
-            <div class="heading">
-              <h3>The Knot - Best of Weddings Winner, 2023, 2022 & 2021</h3>
+            <div class="box">
+              <div class="image">
+                <a
+                  href="https://www.theknot.com/marketplace/sheana-marie-artistry-llc-saint-louis-mo-2040557"
+                  class="img"
+                >
+                  <img src="https://d13ns7kbjmbjip.cloudfront.net/bow_2024/section_4_3.png" alt="The Knot - Best of Weddings winner 2023" width="70" height="70" />
+                </a>
+              </div>
 
+              <div class="heading">
+                <h3>The Knot - Best of Weddings Winner: 2024, 2023, 2022 & 2021</h3>
+
+              </div>
             </div>
           </div>
-
 
         </div>
 
