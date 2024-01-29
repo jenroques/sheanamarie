@@ -112,8 +112,8 @@ function App() {
               </div>
 
               <div class="heading">
-                <h3>The Knot - Best of Weddings Winner: 2024, 2023, 2022 & 2021</h3>
-
+                <h3>The Knot - Best of Weddings Winner: </h3>
+                <h3>2024, 2023, 2022 & 2021</h3>
               </div>
             </div>
           </div>
